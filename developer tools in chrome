@@ -1,0 +1,73 @@
+let myVariable = 123
+undefined
+let myVariable = 123    
+undefined
+myVariable
+123
+const MYVARIABLE = 123
+undefined
+MYVARIABLE
+123
+let myVariable = 2+2
+undefined
+myVariable
+4
+let myVariable = 100%2
+undefined
+myVariable
+0
+let myString1 = 'Lauryn'
+undefined
+let myString2 = 'Porter'
+undefined
+myString1 + ' ' + myString2
+'Lauryn Porter'
+let confusion = '1' + 1
+undefined
+confusion
+'11'
+let curlyBRaces = ${myString1} + ' ' + ${myString2} + 'cute.'
+VM864:1 Uncaught SyntaxError: Unexpected token '{'
+let curlyBraces = '${myString1} {$myString2} cute'
+undefined
+curlyBraces
+'${myString1} {$myString2} cute'
+let curly = ${myString1}
+VM1098:1 Uncaught SyntaxError: Unexpected token '{'
+`${myString1} ${myString2}!`
+'Lauryn Porter!'
+let curlyBraces = `${myString1} cute.`
+undefined
+curlyBraces
+'Lauryn cute.'
+let myTrueBoo = true
+undefined
+myTrueBoo
+true
+let age = 1
+undefined
+let Age = 2
+undefined
+age == Age
+false
+age = Age
+2
+let water, ice = 50
+undefined
+water
+undefined
+water + ice
+NaN
+var water, ice + 50
+VM1549:1 Uncaught SyntaxError: Unexpected token '+'
+var water, ice = 50
+VM1591:1 Uncaught SyntaxError: Identifier 'water' has already been declared
+    at <anonymous>:1:1
+(anonymous) @ VM1591:1
+var wa, ic = 50
+undefined
+wa + ic 
+NaN
+wa 
+undefined
+let wa = 50
